@@ -1,0 +1,410 @@
+/* Bootstrap Customer style. */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    padding-top: 80px;
+    color: #818181;
+    background-color: #D3D3D3;
+    background-image: url("../images/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 1.4em;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    /* for IE9-11 */
+    font-family: Gotham, sans-serif !important;
+}
+
+/* Navbar style */
+
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    border-radius: 0;
+    font-family: Gotham, sans-serif;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent !important;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:active,
+.navbar-inverse .navbar-toggle:active,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: transparent !important;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:active,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-collapse {
+    border-color: white;
+}
+.navbar-nav .open .dropdown-menu>li>a {
+    padding: 5px 10px 5px 15px;
+    color: #9d9d9d;
+}
+.dropdown-menu>li>a {
+    font-weight: bold;
+}
+.navbar-nav>li>.dropdown-menu {
+    background-color: #014483;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FAFAFA;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #fAfAfA;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+.navbar-toggle {
+    padding: 12px 8px;
+}
+
+/* Button style */
+
+.btn ,
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:hover,
+.btn:active:focus {
+    outline: none;
+}
+
+form .btn {
+    border-radius: 10px;
+    color: #999999;
+    border: 1px solid #CCCCCC;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+    width: 28px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+/* form style */
+
+.form-control {
+    width: 100%;
+}
+
+/* Panel style */
+
+.panel-default {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.23);
+}
+.factions .panel-title {
+    font-weight: bold;
+    font-size: 26px;
+    color: #014483;
+}
+.factions .panel:hover {
+    box-shadow: 5px 0 40px rgba(0, 0, 0, 0.36);
+}
+
+/* Icon style */
+
+.fa-facebook-official,
+.fa-instagram,
+.fa-linkedin {
+    font-size:36px;
+    color:white
+}
+
+/* Images style */
+
+.svg {
+    width: 90px;
+    height: 125px;
+}
+.about {
+    padding: 0;
+    position: relative;
+    bottom: 90px;
+    width: 100%;
+}
+.train {
+    width: auto;
+    padding: 0;
+}
+.trainings {
+    margin-top: 50px;
+}
+
+/* Modal */
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 50px;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-header {
+    background-color: #03275A;
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.modal-title {
+    font-weight: bold;
+    color: #fdfcfc;
+    padding-left: 20px;
+    font-style: italic;
+}
+.modal-body>h3 {
+    color: #00224d;
+    font-weight: bold;
+    font-size: 20px;
+}
+.close {
+    outline: none;
+    color: #FAFAFA !important;
+    margin-right: 20px;
+    font-size: 25px;
+    opacity: 1;
+}
+.modal-icon {
+    color: #03275A;
+    margin-right: 10px;
+}
+.modal .panel-body {
+    padding: 15px 15px 30px 15px;
+}
+.modal-body {
+    background-color: #f5f5f5;
+}
+.modal-body .panel {
+    background-color: #f5f5f5;
+}
+.modal .panel-body>p {
+    color: #03275A;
+}
+.modal-body .panel {
+    margin: 0 5px;
+    border-radius: 0;
+    border-color: transparent;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.71);
+    font-weight: 700;
+}
+.modal-body .modal-title {
+    font-size: 18px;
+}
+
+/* Media style. */
+
+@media (max-width: 479px) {
+    .small-logo {
+        width: auto;
+        padding: 20px 15px;
+    }
+    .logo-size {
+        padding: 0;
+        width: auto !important;
+    }
+    .navbar-inverse .navbar-toggle {
+        margin-top: 17px;
+        border-color: transparent;
+    }
+    .collapse .navbar-nav {
+        margin: 7.5px -15px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: small;
+    }
+    .services-title {
+        font-size: 22px !important;
+    }
+    .services-banneri {
+        font-size: 28px !important;
+    }
+    .logo-medium {
+        margin-top: 50px;
+    }
+    .trainings-title {
+     font-size: 30px !important;
+    }
+    .factions .panel-title {
+        font-size: 22px !important;
+    }
+    .trainings-title {
+        font-size: 24px !important;
+    }
+    .pull-right>h4 {
+        font-size: 24px !important;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height:  380px;
+    }
+    .navbar-default .footer-title{
+        font-size: 12px !important;
+        width: 100%;
+        text-align: center;
+    }
+    .li1 a:hover{
+        color: #FF9D00 !important;
+        border-bottom: none !important;
+    }
+    .about {
+        padding: 0;
+    }
+    .services-banneri {
+        margin-top: -40px !important;
+    }
+    footer .navbar {
+        padding: 0 !important;
+    }
+    .modal-body .panel {
+        margin: 0 !important;
+    }
+    .modal {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .navbar-brand{
+        padding:0 15px;
+    }
+    .small-logo {
+        width: auto;
+        padding: 20px 0;
+    }
+    .services-banneri {
+        font-size: 30px !important;
+    }
+    .trainings-title {
+        font-size: 32px !important;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: small;
+    }
+    .btn {
+        font-size: 22px !important;
+    }
+    .navbar-default .footer-title{
+        font-size: 18px !important;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .li1 a:hover{
+        color: #FF9D00 !important;
+        border-bottom: none !important;
+    }
+    .navbar-inverse .navbar-toggle {
+        margin-top: 17px;
+    }
+    footer .navbar {
+        padding: 0 !important;
+    }
+    .modal-body .panel {
+        margin: 0 !important;
+    }
+    .modal {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .services-banneri {
+        margin-top: -50px !important;
+        font-size: 40px !important;
+    }
+    .trainings-title {
+        font-size: 38px !important;
+    }
+    .btn {
+        font-size: 20px !important;
+    }
+    .collapse .navbar-center {
+        font-size: 14px !important;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: medium;
+    }
+    .modal-body .panel {
+        margin: 0 !important;
+    }
+    .modal {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .navbar-center {
+        vertical-align: middle;
+        justify-content: center;
+        display: inline-block;
+        text-align: -webkit-center;
+    }
+    .navbar-center{
+        font-size: 16px !important;
+    }
+    .services-banneri {
+        margin-top: -30px !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    #custom-bootstrap-menu .navbar-collapse.collapse {
+        display: none !important;
+    }
+    #custom-bootstrap-menu .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    #custom-bootstrap-menu .navbar-toggle {
+        display: block !important;
+    }
+    #custom-bootstrap-menu .navbar-collapse {
+        display: block !important;
+    }
+    #custom-bootstrap-menu .navbar-header {
+        float: none;
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #custom-bootstrap-menu .nav {
+        padding: 0 20px;
+    }
+    #custom-bootstrap-menu .navbar-brand {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023px){
+    #custom-bootstrap-menu .nav {
+        width: 100%;
+        display: inline-grid;
+    }
+}
